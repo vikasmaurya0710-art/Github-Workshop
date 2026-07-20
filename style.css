@@ -7,5 +7,25 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background-color: yellow;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+p{
+    color: whitesmoke;
+    font-size: 25px;
+}
+img{
+    height: 500px;
+    width: 350px;
+    border: 2px solid rgb(101, 100, 100);
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px grey;
 }
